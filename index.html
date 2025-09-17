@@ -1,0 +1,224 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <title>Tropicália</title>
+    <link href="https://cdnjs.cloudflare.com/ajax/libs/bootstrap/5.3.3/css/bootstrap.min.css" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/bootstrap-icons/1.11.3/font/bootstrap-icons.min.css">
+    <link rel="stylesheet" href="styles.css">
+</head>
+
+<body>
+    <header class=" p-5">
+
+        <nav class="container d-flex justify-content-between align-items-center" >
+            <ul class="nav mt-5">
+                <li class="nav-item"><a class="nav-link" href="#inicio">Início</a></li>
+                <li class="nav-item"><a class="nav-link" href="#galeria">Galeria</a></li>
+                <li class="nav-item"><a class="nav-link" href="#contato">Contato</a></li>
+            </ul>
+            <div id="acessibilidade" class="menu-acessibilidade"> 
+                <button id="botao-acessibilidade" class="btn btn-primary fw-bold rotacao-botao" aria-expanded="false">acessibilidade</button>
+                <div id="opcoes-acessibilidade" class="opcoes-acessibilidade apresenta-lista">
+                    <button id="aumentar-fonte" class="btn btn-primary fw-bold" aria-label="Aumentar o tamanho da fonte">A+</button>
+                    <button id="diminuir-fonte" class="btn btn-primary fw-bold" aria-label="diminuir o tamanho da fonte">A-</button>
+                    <button id="alterna-contraste" class="btn btn-primary fw-bold" aria-label="Alterna o contraste de cores"> <i class="bi bi-shadows"></i></button>         
+                </div>
+            </div>
+        </nav>
+       
+    </header>
+
+
+    <main class="container my-5">
+
+        <section id="inicio" class="my-5">
+            <div class="inicio-fundo d-flex justify-content-between align-items-center">
+                <div class="esquerda-conteudo">
+                    <h1 class="display-4 text-white fst-italic fw-bold">Boas-vindas a</h1>
+                    <a href="#colorfulstage"
+                        class="btn btn-primary btn-lg botao-inicio fw-semibold">Quero
+                        conhecer!</a>
+                    <a href="#VA"
+                        class="btn btn-primary btn-lg botao-secundario fw-semibold">Ir direto para os cantores.</a>
+                </div>
+
+              </div>
+        </section>
+
+        <section id="colorfulstage" class="my-5 pt-6 secao-colorfulstage" tabindex="0" aria-label="Seção explicativa sobre a tropicália">
+            <div class="container d-flex align-items-center ">
+                <div class="col-4 d-flex justify-content-center ">
+                    <img src="imagens/chibimiku.png" class="rounded-pill" width="350" height="331" loading="lazy">
+                </div>
+                <div class="col-5">
+                    <h2>O que é ColorfulStage?</h2>
+                    <p class="p-2">Hatsune Miku: Colorful Stage!, conhecido na Ásia como Project Sekai: Colorful Stage! feat. Hatsune Miku (プロジェクトセカイ カラフルステージ！ feat.初音ミク), é um jogo de ritmo para dispositivos móveis japonês desenvolvido pela Colorful Palette, um estúdio da Craft Egg da CyberAgent, e publicado pela Sega Corporation. O jogo é um spin-off da série Hatsune Miku: Project DIVA da Sega. Ambientados no mundo real onde os Virtual Singers só existem como ficção, os personagens se deparam com outro mundo chamado “Sekai” onde vários “sentimentos verdadeiros” são projetados.</p>
+                </div>
+            </div>
+        </section>
+
+        <section id="galeria" tabindex="0" aria-label="Seção de galeria de imagens">
+            <h2 class="text-center pt-5">Galeria</h2>
+            <div class="container p-10 mt-10 fundo-galeria ">
+                <div class="row justify-content-md-center">
+                    <div class="col-md-4">
+                        <img src="imagens/VIRTUALSINGER.jpeg" class="rounded-5" height="250" width="331" loading="lazy">
+                             <a href="#Virtual-Singer"></a>
+                    </div>
+                    <div class="col-md-4">
+                        <img src="imagens/LeoNeed.jpeg" class="img-fluid rounded-5" loading="lazy">
+                           <a href="#LeoNeed"></a>
+                    </div>
+                </div>
+                <div class="row mt-4  justify-content-md-center">
+                    <div class="col-md-4">
+                        <img src="imagens/MOREMOREJUMP.jpeg" class="img-fluid rounded-5" loading="lazy">
+                    </div>
+                    <div class="col-md-4">
+                        <img src="imagens/VividBadSquad.jpeg"
+                            class="img-fluid rounded-5" loading="lazy">
+                    </div>
+                    <div class="col-md-4">
+                        <img src="imagens/NigthcoreAt25.jpeg"
+                            class="img-fluid rounded-5" loading="lazy">
+                    </div>
+                    <div class="col-md-4">
+                        <img src="imagens/WonderlansXShowtime.jpeg"
+                            class="img-fluid rounded-5" loading="lazy">
+                    </div>
+                    <div class="col-md-4">
+                        <img src="imagens/FANloid.jpeg"
+                            class="rounded-5" height="250" width="331" loading="lazy">
+                    </div>
+                </div>
+             </div>
+        </section>
+      <section id="VA" class="my-5 pt-6 secao-colorfulstage" tabindex="0" aria-label="Seção explicativa sobre a tropicália">
+            <div class="container d-flex align-items-center ">
+                <div class="col-4 d-flex justify-content-center ">
+                    <img src="imagens/MEiKO_VOCALOID.webp" class="pill" width="350" height="400" loading="lazy">
+                </div>
+                <div class="col-5">
+                    <h2>Virtual Singers</h2>
+                    <p class="p-2">Hatsune Miku e seu grupo existem como CANTORES VIRTUAIS no mundo real, ajudando meninos e meninas a encontrarem seus "verdadeiros sentimentos". Esse grupo é composto por 5 cantores: Hatsune Miku, Megurine Luka, Kagamine Len, Kagamine Rin, MEIKO e KAITO.</p>
+                </div>
+            </div>
+        </section>
+         <section id="colorfulstage" class="my-5 pt-6 secao-colorfulstage" tabindex="0" aria-label="Seção explicativa sobre a tropicália">
+            <div class="container d-flex align-items-center ">
+                <div class="col-4 d-flex justify-content-center ">
+                    <img src="imagens/Hoshino_Ichika.webp" class="pill" width="300" height="500" loading="lazy">
+                </div>
+                <div class="col-5">
+                    <h2>Leo/Need</h2>
+                    <p class="p-2">As integrantes do Leo/need eram amigas de infância que tocavam juntas. No entanto, o relacionamento delas ficou tenso após um incidente no ensino fundamental. Quando Saki retorna no ensino médio, a banda se reúne com a ajuda das VIRTUAIS SINGERS.
+                    </p><p>Um dia, Ichika descobre uma música chamada "Untitled" em seu celular. Ao ouvi-la, ela é transportada para a Escola SEKAI. Lá, ela conhece Hatsune Miku e Megurine Luka, que a recebem no SEKAI e a convidam para tocar com elas, com o objetivo de reunir a antiga banda e ajudar as meninas a encontrarem seus verdadeiros sentimentos. O grupo é composto por: 
+Hoshino Ichika, Tenma Saki, Mochizuki Honami, Hinomori Shiho</p>
+                </div>
+            </div>
+        </section>
+ <section id="colorfulstage" class="my-5 pt-6 secao-colorfulstage" tabindex="0" aria-label="Seção explicativa sobre a tropicália">
+            <div class="container d-flex align-items-center ">
+                <div class="col-4 d-flex justify-content-center ">
+                    <img src="imagens/Minori_Hanasato.webp" class="pill" width="250" height="500" loading="lazy">
+                </div>
+                <div class="col-5">
+                    <h2> MORE MORE JUMP!</h2>
+                    <p class="p-2">Hanasato Minori sonha em se tornar uma idol desde que viu Kiritani Haruka na TV. Depois que Haruka se aposenta, as duas se tornam amigas. Logo, Minori e as VIRTUAL SINGERS a convencem a retornar à idolatria, formando o MORE MORE JUMP! junto com Momoi Airi e Hinomori Shizuku.
+                    </p><p>Durante o ensaio, o grupo descobre uma música chamada "Untitled" em seus celulares. Ao tocá-la, elas são transportadas para o Palco SEKAI. Lá, elas conhecem Hatsune Miku e Kagamine Rin, que se apresentam como idols no Palco SEKAI. O grupo é composto por: Hanasato Minori, Kiritani Haruka, Momoi Airi e Hinomori Shizuku</p>
+                </div>
+            </div>
+        </section>
+        <section id="colorfulstage" class="my-5 pt-6 secao-colorfulstage" tabindex="0" aria-label="Seção explicativa sobre a tropicália">
+            <div class="container d-flex align-items-center ">
+                <div class="col-4 d-flex justify-content-center ">
+                    <img src="imagens/Kohane.webp" class="pill" width="550" height="500" loading="lazy">
+                </div>
+                <div class="col-5">
+                    <h2>Vivid Bad Squad</h2>
+                    <p class="p-2">Azusawa Kohane se perde nas ruas enquanto tenta comprar um CD para sua mãe, tropeçando em Shiraishi An e seus colegas músicos se apresentando nos bastidores do Weekend Garage. Embora cativada por suas canções, ela foge por timidez ao ser confrontada por An. Após retornar uma semana depois, An ainda se lembra de Kohane e se apresenta para ela, também convidando a garota para cantar. An percebe o potencial de Kohane ao cantar, convidando-a a formar uma banda em seu sonho para superar um evento musical lendário chamado RAD WEEKEND. Ela concorda, formando assim seu grupo de duplas, Vivids. Eles também conhecem BAD DOGS, Shinonome Akito e Aoyagi Toya, no mesmo dia.
+                    </p><p>Akito convida Kohane e An para um evento, e ambas aceitam a oferta. Enquanto montam um repertório de músicas em uma playlist, Kohane descobre a música "Untitled". Ao tentar baixar a música, An e Kohane são transportadas para SEKAI, onde são recebidas por Hatsune Miku e MEIKO. Com a ajuda das VIRTUAL SINGERS, as Vivids e as BAD DOGS unem forças para criar a Vivid BAD SQUAD e superar a RAD WEEKEND. O grupo é formado por: 
+Azusawa Kohane,  Shiraishi An, Shinonome Akito e Aoyagi Toya
+</p>
+                </div>
+            </div>
+        </section>
+            <section id="colorfulstage" class="my-5 pt-6 secao-colorfulstage" tabindex="0" aria-label="Seção explicativa sobre a tropicália">
+            <div class="container d-flex align-items-center ">
+                <div class="col-4 d-flex justify-content-center ">
+                    <img src="imagens/Kanade.webp" class="pill" width="450" height="500" loading="lazy">
+                </div>
+                <div class="col-5">
+                    <h2>Nightcord At 25</h2>
+                    <p class="p-2">O círculo foi criado por K na esperança de fazer música que "salvasse as pessoas" e lhes desse esperança. Ela recruta as integrantes Enanan, Amia e Yuki, comunicando-se por meio de uma ferramenta de bate-papo chamada "Nightcord". Todas as integrantes desconheciam os nomes ou aparências reais umas das outras (exceto Ena, que publica selfies na internet, apenas para ser vista por Mizuki) até o Capítulo 6 da História Principal do grupo.
+                    </p><p>Um dia, Kanade perde o contato com uma das integrantes do seu círculo. Elas encontram um arquivo de música chamado "Untitled" que é compartilhado com cada uma delas e, ao reproduzi-lo, são transportadas para o SEKAI. O grupo é composto por: Yoisaki Kanade, Asahina Mafuyu, Shinonome Ena e Akiyama Mizuki</p>
+                </div>
+            </div>
+        </section>
+                 <section id="colorfulstage" class="my-5 pt-6 secao-colorfulstage" tabindex="0" aria-label="Seção explicativa sobre a tropicália">
+            <div class="container d-flex align-items-center ">
+                <div class="col-4 d-flex justify-content-center ">
+                    <img src="imagens/Tsukasa.webp" class="pill" width="435" height="500" loading="lazy">
+                </div>
+                <div class="col-5">
+                    <h2>Wonderlans X Showtime</h2>
+                    <p class="p-2">Após ser reprovado em sua audição, Tenma Tsukasa é contratado por Otori Emu para devolver o Palco Phoenix Wonderland à sua antiga glória com performances incríveis. Os dois atores recrutam o diretor de palco e roboticista Kamishiro Rui e a tímida cantora Kusanagi Nene, juntamente com sua réplica robótica Nene-Robo.
+                    </p><p>Emu tenta convencer Tsukasa a se juntar à trupe Phoenix Wonderland, Tsukasa descobre uma música chamada "Untitled" em seu celular. Ao tocá-la, os dois são transportados para SEKAI. Lá, a dupla conhece Hatsune Miku, KAITO e os bichinhos de pelúcia com os quais eles se apresentam. O grupo é formado por: Tsukasa Tenma, Emu Otori, Rui Kamishiro e Nene Kusanagi.</p>
+                </div>
+                </section>
+                  <section id="colorfulstage" class="my-5 pt-6 secao-colorfulstage" tabindex="0" aria-label="Seção explicativa sobre a tropicália">
+            <div class="container d-flex align-items-center ">
+                <div class="col-4 d-flex justify-content-center ">
+                    <img src="imagens/kasane_teto.webp" class="pill" width="250" height="500" loading="lazy">
+                </div>
+                <div class="col-5">
+                    <h2>Fanloids</h2>
+                    <p class="p-2">FANLOID (comumente abreviado para Fanmade Vocaloid) são personagens inspirados em VOCALOIDs, criados pelo fandom. FANLOIDs são criados modificando um banco de vozes de Vocaloids para soar completamente diferente em todos os aspectos possíveis. Essas formas incluem Genderbend (ex.: ZeeU sendo SeeU masculino e Kaiko sendo Kaito feminino), Subderivative, criando um personagem alternativo e criando um mascote super deformado de um personagem. Tendo como exemplo: Kasane Teto, Akita Neru, GUMI, Zatsune Miku e diversos outros.</p>
+                </div>
+                </section>
+        <section id="contato">
+            <div class="container p-5 d-flex justify-content-center">
+                <div class="col-md-8 col-lg-10 rounded-5 formulario"> <!-- Caixa do formulário com 60% de largura -->
+                    <h2 class="mb-3">Entre em contato</h2>
+                    <form>
+                        <div class="form-group mb-3">
+                            <label for="nome">Nome</label>
+                            <input type="text" id="nome" name="nome" class="form-control rounded-3 mt-1"
+                                placeholder="Digite seu nome completo">
+                        </div>
+                        <div class="form-group mb-3">
+                            <label for="email">Email</label>
+                            <input type="email" id="email" name="email" class="form-control rounded-3 mt-1"
+                                placeholder="Digite seu email">
+                        </div>
+                        <div class="form-group mb-3">
+                            <label for="mensagem">Mensagem</label>
+                            <textarea id="mensagem" name="mensagem" class="form-control rounded-4 mt-2" rows="4"
+                                placeholder="Escreva sua mensagem"></textarea>
+                        </div>
+                        <div class="d-grid gap-2">
+                            <button type="submit" class="btn btn-primary btn-lg rounded-pill">Enviar
+                                mensagem</button>
+                        </div>
+                    </form>
+                </div>
+            </div>
+        </section>
+    </main>
+    <footer class="text-center p-3 fst-italic">
+        <p>Acesse nossas redes:</p>
+        <i class="bi bi-whatsapp"></i>
+        <i class="bi bi-instagram"></i>
+        <i class="bi bi-tiktok"></i>
+        <p class="mt-3">Desenvolvido por Start by tsx.louie. Projeto fictício sem fins comerciais.</p>
+    </footer>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/scrollReveal.js/4.0.9/scrollreveal.js"></script>
+    <script src="script.js"></script>
+  
+</body>
+
+</html>
